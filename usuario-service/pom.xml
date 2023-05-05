@@ -81,7 +81,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<repositories>
+		<repositories>
 		<repository>
 			<id>netflix-candidates</id>
 			<name>Netflix Candidates</name>
