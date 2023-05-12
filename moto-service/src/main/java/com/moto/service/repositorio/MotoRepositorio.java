@@ -10,5 +10,5 @@ import com.moto.service.entidades.Moto;
 @Repository
 public interface MotoRepositorio extends JpaRepository<Moto, Integer> {
 
-	List<Moto> findByUsuario(int usuarioId);
+	List<Moto> findByUsuarioId(int usuarioId);
 }

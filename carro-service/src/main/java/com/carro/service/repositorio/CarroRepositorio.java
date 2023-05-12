@@ -10,5 +10,5 @@ import com.carro.service.entidades.Carro;
 @Repository
 public interface CarroRepositorio extends JpaRepository<Carro, Integer> {
 
-	List<Carro> findByUsuario(int usuarioId);
+	List<Carro> findByUsuarioId(int usuarioId);
 }

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-service
+    name: multiple-instances
   cloud:
     config:
       enabled: true

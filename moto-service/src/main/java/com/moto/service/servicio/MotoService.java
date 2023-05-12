@@ -29,6 +29,6 @@ public class MotoService {
 	}
 	
 	public List<Moto> getByMotoUsuarioId (int usuarioId) {
-		return motoRepositorio.findByUsuario(usuarioId);
+		return motoRepositorio.findByUsuarioId(usuarioId);
 	}
 }
